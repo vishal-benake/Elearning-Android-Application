@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission
+        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/gitclg"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GITEXTC"
+        tools:targetApi="31">
+        <activity
+            android:name=".activities.MoreActivities.chatgptWebview"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminPanel.AddSyllabus"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminPanel.AddYoutube"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdminPanel.AddBooks"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester8.Subject4"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester8.Subject3"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester8.Subject2"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester8.Subject1"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester7.Subject5"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester7.Subject4"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester7.Subject3"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester7.Subject2"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester7.Subject1"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester6.Subject5"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester6.Subject4"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester6.Subject3"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester6.Subject2"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester6.Subject1"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester5.Subject5"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester5.Subject4"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester5.Subject3"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester5.Subject2"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester5.Subject1"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester4.Subject5"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester4.Subject4"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester4.Subject3"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester4.Subject2"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester4.Subject1"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester3.Subject5"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester3.Subject4"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester3.Subject3"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester3.Subject2"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester3.Subject1"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester2.Subject5"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester2.Subject4"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester2.Subject3"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester2.Subject2"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester2.Subject1"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester1.Subject5"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester1.Subject4"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester1.Subject3"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester1.Subject2"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Backend.Semester1.Subject1"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Semester8"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Semester7"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Semester6"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Semester5"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Semester4"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Semester3"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Semester2"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Semesters.Semester1"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MoreActivities.GenerateImages"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MoreActivities.ChatGptSelection"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MoreActivities.ChatwithBot"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MoreActivities.GoogleMeet"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ProfileActivities.EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ProfileActivities.NotesAccess"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ProfileActivities.MoreFeautres"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ProfileActivities.ReportProblem"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ProfileActivities.PrivacyPolicy"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ProfileActivities.Help"
+            android:exported="false" />
+        <activity
+            android:name=".activities.PDFActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SplashSlider"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Update"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Home"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Signup"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Login"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

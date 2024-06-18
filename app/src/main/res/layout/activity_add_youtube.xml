@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/title_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/lato_bold"
+            android:gravity="center_vertical"
+            android:text="Admin Panel"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mainholder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        app:layout_constraintStart_toStartOf="@id/title_holder"
+        app:layout_constraintEnd_toEndOf="@id/title_holder"
+        app:layout_constraintTop_toBottomOf="@id/title_holder"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textColor="@color/custom_blue"
+            android:fontFamily="@font/lato_bold"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"/>
+        <EditText
+            android:id="@+id/titleedittxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:hint="Enter Title of Youtube Resource"
+            android:textColorHint="@color/custom_gray"
+            android:textColor="@color/custom_blue"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/lato_regular"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="@color/custom_blue"
+            android:fontFamily="@font/lato_bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"/>
+        <EditText
+            android:id="@+id/descpedittxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:hint="Enter Description of Youtube Resource"
+            android:textColorHint="@color/custom_gray"
+            android:textColor="@color/custom_blue"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/lato_regular"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Youtube Link"
+            android:textColor="@color/custom_blue"
+            android:fontFamily="@font/lato_bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"/>
+
+        <EditText
+            android:id="@+id/youtubeedittxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/lato_regular"
+            android:hint="Enter Your Youtube Link"
+            android:textColor="@color/custom_blue"
+            android:textColorHint="@color/custom_gray"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/uploadButton"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Upload"
+            android:textAllCaps="false"
+            android:fontFamily="@font/lato_bold"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_bg"/>
+
+    </LinearLayout>
+</LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

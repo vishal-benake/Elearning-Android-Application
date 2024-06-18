@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">GIT EXTC</string>
+    <string name="app_name_new">GITEXTC</string>
+    <string name="splash_title_txt">Git Extc</string>
+    <string name="splash_slogan_txt">Engineering App</string>
+    <string name="splash_copyright_txt">© Git Extc 2024</string>
+    <string name="slider_signup_with_email_txt">Signup with Email</string>
+    <string name="slider_already_have_an_account_txt">Already have an account?</string>
+    <string name="slider_sign_in_txt">Sign In</string>
+
+    <string name="heading_one">Everything you need for\nEngg. Subjects at one place</string>
+    <string name="heading_two">Get Subject wise courses for all semesters</string>
+    <string name="heading_three">Video Lectures and Notes\nto clear your concepts</string>
+    <string name="heading_fourth">Get all your\ndoubts solved</string>
+
+    <string name="desc_one">Clear your engineering exams with least\namount of time, effort and money spent</string>
+    <string name="desc_two">Learn from the most structured courses\nprepared by the best teachers</string>
+    <string name="desc_three">Learn from best teachers\nwith amazing videos and notes</string>
+    <string name="desc_fourth">Join our engineering app community of\nmany students and teachers</string>
+    <string name="welcome_back_txt">Welcome back!</string>
+    <string name="sign_in_btn_txt">Sign In</string>
+    <string name="forgot_password_txt">Forgot Password?</string>
+    <string name="don_t_have_an_account_login_pg_txt">Don\'t have an account?</string>
+    <string name="sign_up_login_pg_txt">Sign up</string>
+    <string name="git_extc_terms_and_conditions_txt"><u>Terms &amp; Conditions</u></string>
+    <string name="privacy_policy_txt"><u>Privacy Policy</u></string>
+    <string name="verifying_txt">Verifying...</string>
+
+    <string name="downloadandinstall">Download v:</string>
+    <string name="con_with_curr_version">Continue with current v: </string>
+
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Git Extc</string>
+    <string name="nav_header_subtitle">Engineering App</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="git_extc_drawer_main">Git Extc</string>
+    <string name="about_git_content_txt">The principle objective of the Gharda Foundation is To carry on activities for the benefits and development of residents of rural India by application of all suitable means available with focus on issues like health, literacy, non formal education, social awareness, agriculture, technical education etc. on its own or by joining hands or by helping like minded NGO\'s . Establishment of Gharda Institute of Technology in a typical rural sector is also a step in line with the philosophy of Gharda Foundation.\nGIT has provided good infrastucture, modern equipments, advanced laboratories, experienced &amp; dediacated teachers, modified syllabus to suit changing environment, hands on workshop by collaborating with foreign universities and arranging for pre-entrance preparatory workshops.All this provided at a reasonable cost may be with arrangement of loan facilities with subsidized interest rates. Hence the said institute within a couple of years emerged as a premier institute in the eyes of government &amp; businessmen.</string>
+    <string name="about_git_title_txt">About Git</string>
+    <string name="visit_website_txt">Visit Website</string>
+    <string name="share_us_txt">Share us</string>
+    <string name="more_info_amp_support_txt"><![CDATA[More info & support]]></string>
+    <string name="electronics_amp_telecommunication_txt"><![CDATA[Electronics & Telecommunication]]></string>
+    <string name="git_student_profile_name_txt">Git Student</string>
+    <string name="edit_profile_btn_txt">Edit Profile</string>
+    <string name="share_us_title_txt">Share us</string>
+    <string name="help_txt">Help</string>
+    <string name="how_to_access_notes_txt">How to access notes</string>
+    <string name="usage_of_more_feautres_txt">Usage of more feautres</string>
+    <string name="report_a_problem_txt">Report a problem</string>
+    <string name="reporting_steps_txt"><b>To report a bug or problem facing in Git Extc application you must go through the following steps :-</b></string>
+    <string name="how_to_report_a_problem_txt">How to report a problem?</string>
+    <string name="reporting_steps_new_txt">(1)&#160;&#160;Direct reporting a bug or issue is currently not available.\n\n(2)&#160;&#160;You should take a screenshot of the specific issue (if any) &amp; send a email to our official gmail account.</string>
+    <string name="how_long_does_it_take_to_fix_an_issue">How long does it take to fix an issue?</string>
+    <string name="issue_no_2_solution_txt"><![CDATA[(1)  The time require to fix an issue depends on the severity of issue.\n\n(2)  As soon as the issue (if any) will be fixed we may release a update to our application.]]></string>
+    <string name="does_git_extc_collects_user_data_while_reporting_a_issue">Does Git Extc collects user data while reporting a issue?</string>
+    <string name="_1_160_160_currently_you_can_only_view_the_notes_in_online_mode_n_n_2_160_160_in_future_you_may_see_the_option_to_download_the_notes"><![CDATA[(1)  Currently you can only view the notes in online mode.\n\n(2)  In future you may see the option to download the notes.]]></string>
+
+</resources>

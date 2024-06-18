@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.smarteist.autoimageslider.SliderView
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp"
+        android:elevation="2dp"
+        android:background="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:sliderAnimationDuration="600"
+        app:sliderAutoCycleDirection="back_and_forth"
+        app:sliderIndicatorAnimationDuration="600"
+        app:sliderIndicatorEnabled="true"
+        app:sliderIndicatorGravity="center_horizontal|bottom"
+        app:sliderIndicatorMargin="15dp"
+        app:sliderIndicatorOrientation="horizontal"
+        app:sliderIndicatorPadding="3dp"
+        app:sliderIndicatorRadius="2dp"
+        app:sliderIndicatorSelectedColor="@color/custom_blue"
+        app:sliderIndicatorUnselectedColor="@color/custom_gray"
+        app:sliderScrollTimeInSec="1" />
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/slider"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/bannerimage"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:src="@drawable/gitclg"
+            android:scaleType="fitXY"
+            android:background="@drawable/banner_bg"
+            android:elevation="1dp"/>
+
+        <TextView
+            android:id="@+id/aboutgitTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_git_title_txt"
+            android:fontFamily="@font/lato_bold"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:padding="2dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/aboutgitTxt"
+            android:layout_marginTop="10dp"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_git_content_txt"
+                android:fontFamily="@font/lato_regular"
+                android:textColor="#272727"
+                android:lineSpacingExtra="6dp"
+                android:textSize="14sp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:justificationMode="inter_word"
+                />
+
+            <LinearLayout
+                android:id="@+id/visitweb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/visit_website_txt"
+                    android:fontFamily="@font/lato_bold"
+                    android:textColor="@color/custom_blue"
+                    android:textStyle="bold"
+                    android:textSize="14sp"/>
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/ic_arrow_up"
+                    android:layout_margin="5dp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+</RelativeLayout>

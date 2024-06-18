@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="24dp" android:width="24dp" android:viewportWidth="24" android:viewportHeight="24">
+    <path android:fillColor="@color/custom_blue" android:pathData="M8.451,1.701H3.951C2.709,1.701 1.701,2.709 1.701,3.951V8.451C1.701,9.694 2.709,10.701 3.951,10.701H8.451C9.694,10.701 10.701,9.694 10.701,8.451V3.951C10.701,2.709 9.694,1.701 8.451,1.701Z"/>
+    <path android:fillColor="@color/custom_blue" android:pathData="M19.951,1.701H15.451C14.208,1.701 13.201,2.709 13.201,3.951V8.451C13.201,9.694 14.208,10.701 15.451,10.701H19.951C21.194,10.701 22.201,9.694 22.201,8.451V3.951C22.201,2.709 21.194,1.701 19.951,1.701Z"/>
+    <path android:fillColor="@color/custom_blue" android:pathData="M8.451,13.201H3.951C2.709,13.201 1.701,14.208 1.701,15.451V19.951C1.701,21.194 2.709,22.201 3.951,22.201H8.451C9.694,22.201 10.701,21.194 10.701,19.951V15.451C10.701,14.208 9.694,13.201 8.451,13.201Z"/>
+    <path android:fillColor="@color/custom_blue" android:pathData="M17.701,22.201C20.187,22.201 22.201,20.187 22.201,17.701C22.201,15.216 20.187,13.201 17.701,13.201C15.216,13.201 13.201,15.216 13.201,17.701C13.201,20.187 15.216,22.201 17.701,22.201Z"/>
+</vector>

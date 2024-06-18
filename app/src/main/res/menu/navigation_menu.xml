@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <group
+        android:id="@+id/group1">
+
+        <item
+            android:icon="@drawable/ic_admin_panel"
+            android:id="@+id/uploadbooks"
+            android:title="Upload Books" />
+
+        <item
+            android:icon="@drawable/ic_book_list"
+            android:id="@+id/uploadsyllabus"
+            android:title="Upload Syllabus" />
+
+        <item
+            android:icon="@drawable/ic_youtube"
+            android:id="@+id/uploadyoutube"
+            android:title="Upload Youtube Resources" />
+    </group>
+
+    <group
+        android:id="@+id/group2">
+        <item
+            android:icon="@drawable/view_website"
+            android:id="@+id/visitwebsite"
+            android:title="Visit Website" />
+
+        <item
+            android:icon="@drawable/ic_logout"
+            android:id="@+id/logout"
+            android:title="Logout" />
+
+    </group>
+</menu>

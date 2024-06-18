@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="custom_blue">#113251</color>
+    <color name="custom_gray">#9EA2A5</color>
+    <color name="signup_txt">#1C3048</color>
+    <color name="welcome_txt">#494949</color>
+    <color name="login_bg">#F0F0F0</color>
+    <color name="red">#F31706</color>
+
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorPrimary">#113251</color>
+    <color name="colorAccent">#113251</color>
+</resources>
