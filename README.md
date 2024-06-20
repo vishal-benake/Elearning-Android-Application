@@ -19,10 +19,15 @@ The application fetches the information from the database using http url connect
 * <i>Android Networking :</i> <a href="https://github.com/amitshekhariitbhu/Fast-Android-Networking.git">ANDROID NETWORKING</a>
 * <i>Lottie :</i> <a href="https://github.com/airbnb/lottie-android.git">LOTTIE</a>
 
+<div>
 <img src="https://github.com/vishal-benake/Elearning-Android-Application/blob/main/app/release/-6129564166080543708_121.jpg" width="250" height="400">
 <img src="https://github.com/vishal-benake/Elearning-Android-Application/blob/main/app/release/-6129564166080543710_121.jpg" width="250" height="400">
-<img src="https://github.com/vishal-benake/Elearning-Android-Application/blob/main/app/release/-6129564166080543717_121.jpg" width="250" height="400">
+</div>
+<div>
+  <img src="https://github.com/vishal-benake/Elearning-Android-Application/blob/main/app/release/-6129564166080543717_121.jpg" width="250" height="400">
 <img src="https://github.com/vishal-benake/Elearning-Android-Application/blob/main/app/release/-6129564166080543728_121.jpg" width="250" height="400">
+</div>
+
 
 ## Instagram
 <h4>If you like, do follow me on Instagram</h4>
