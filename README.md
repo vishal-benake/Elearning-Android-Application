@@ -12,7 +12,7 @@
 The application fetches the information from the database using http url connection and <b>REST API technology</b>. The project uses different libraries to  fetch the informaton from server and display those pdfs into the application.The project has Login system which authenticates the user before entering into the application and stores all the login information into database which are end-to-end encrypted.</P>
 
 * Libraries / Dependencies :
-* <i>Http Url Connection :</i> <a href="com.github.VishnuSivadasVS:Advanced-HttpURLConnection:1.2">HTTP URL CONNECTION</a>
+* <i>Http Url Connection :</i> <a href="[com.github.VishnuSivadasVS:Advanced-HttpURLConnection:1.2](https://github.com/VishnuSivadasVS/Advanced-HttpURLConnection.git)">HTTP URL CONNECTION</a>
 * <i>Image AutoSlider :</i> <a href="com.github.smarteist:autoimageslider:1.3.9">IMAGE AUTOSLIDER</a>
 * <i>Pdf Viewer :</i> <a href="com.github.barteksc:android-pdf-viewer:2.8.2">PDF VIEWER</a>
 * <i>File Loader :</i> <a href="com.github.kk121:File-Loader:1.2">FILE LOADER</a>
