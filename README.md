@@ -11,13 +11,13 @@
 <P>This is <b>Elearning Android Application</b> project created with Android Studio Software. The project is created using <b>Java</b> language. The main objective of the project is to provide the educational notes into the application which will be stored at the server.
 The application fetches the information from the database using http url connection and <b>REST API technology</b>. The project uses different libraries to  fetch the informaton from server and display those pdfs into the application.The project has Login system which authenticates the user before entering into the application and stores all the login information into database which are end-to-end encrypted.</P>
 
-* Libraries / Dependencies :
+* <h4>Libraries / Dependencies :</h4>
 * <i>Http Url Connection :</i> <a href="https://github.com/VishnuSivadasVS/Advanced-HttpURLConnection.git">HTTP URL CONNECTION</a>
-* <i>Image AutoSlider :</i> <a href="com.github.smarteist:autoimageslider:1.3.9">IMAGE AUTOSLIDER</a>
-* <i>Pdf Viewer :</i> <a href="com.github.barteksc:android-pdf-viewer:2.8.2">PDF VIEWER</a>
-* <i>File Loader :</i> <a href="com.github.kk121:File-Loader:1.2">FILE LOADER</a>
-* <i>Android Networking :</i> <a href="com.amitshekhar.android:android-networking:1.0.1">ANDROID NETWORKING</a>
-* <i>Lottie :</i> <a href="com.airbnb.android:lottie:6.4.0">LOTTIE</a>
+* <i>Image AutoSlider :</i> <a href="https://github.com/smarteist/Android-Image-Slider.git">IMAGE AUTOSLIDER</a>
+* <i>Pdf Viewer :</i> <a href="https://github.com/barteksc/AndroidPdfViewerV2.git">PDF VIEWER</a>
+* <i>File Loader :</i> <a href="https://github.com/kk121/File-Loader.git">FILE LOADER</a>
+* <i>Android Networking :</i> <a href="https://github.com/amitshekhariitbhu/Fast-Android-Networking.git">ANDROID NETWORKING</a>
+* <i>Lottie :</i> <a href="https://github.com/airbnb/lottie-android.git">LOTTIE</a>
 
 ## Instagram
 <h4>If you like, do follow me on Instagram</h4>
