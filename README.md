@@ -1,4 +1,4 @@
-## Elearning Android Application
+## Elearning Android Application     ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ## Usage
 * clone this repository into your system.
@@ -34,4 +34,4 @@ The application fetches the information from the database using http url connect
 <a href="https://www.instagram.com/_vishal_benake">Connect with me on Instagram</a>
 
 ## License
-[License](License)
+ ![License](https://img.shields.io/badge/License-MIT-blue.svg)
