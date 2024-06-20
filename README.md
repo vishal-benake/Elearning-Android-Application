@@ -5,7 +5,7 @@
   <h6><i>git clone https://...</i></h6>
   
 ## Software
-<a href="https://developer.android.com/studio?gad_source=1&gclid=EAIaIQobChMIxezS47DqhgMVQ9MWBR1J5QE-EAAYASAAEgIgh_D_BwE&gclsrc=aw.ds">Android Studio</a>
+<a href="https://developer.android.com/studio?gad_source=1&gclid=EAIaIQobChMIxezS47DqhgMVQ9MWBR1J5QE-EAAYASAAEgIgh_D_BwE&gclsrc=aw.ds">![AndroidStudio](https://img.shields.io/badge/-Android%20Studio-000000?style=for-the-badge&logo=AndroidStudio)</a>
 
 ## Documentation
 <P>This is <b>Elearning Android Application</b> project created with Android Studio Software. The project is created using <b>Java</b> language. The main objective of the project is to provide the educational notes into the application which will be stored at the server.
