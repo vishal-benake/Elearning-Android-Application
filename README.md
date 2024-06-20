@@ -11,7 +11,7 @@
 <P>This is <b>Elearning Android Application</b> project created with Android Studio Software. The project is created using <b>Java</b> language. The main objective of the project is to provide the educational notes into the application which will be stored at the server.
 The application fetches the information from the database using http url connection and <b>REST API technology</b>. The project uses different libraries to  fetch the informaton from server and display those pdfs into the application.The project has Login system which authenticates the user before entering into the application and stores all the login information into database which are end-to-end encrypted.</P>
 
-* <h4><u>Libraries / Dependencies </u>:</h4>
+* <h4>Libraries / Dependencies :</h4>
 * <i>Http Url Connection :</i> <a href="https://github.com/VishnuSivadasVS/Advanced-HttpURLConnection.git">HTTP URL CONNECTION</a>
 * <i>Image AutoSlider :</i> <a href="https://github.com/smarteist/Android-Image-Slider.git">IMAGE AUTOSLIDER</a>
 * <i>Pdf Viewer :</i> <a href="https://github.com/barteksc/AndroidPdfViewerV2.git">PDF VIEWER</a>
