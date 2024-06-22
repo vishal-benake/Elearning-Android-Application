@@ -1,8 +1,19 @@
-## Elearning Android Application     ![License](https://img.shields.io/badge/License-MIT-blue.svg)
+## Elearning Android Application
 
-## Usage
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Software](#software)
+- [Documentation](#documentation)
+- [License](#license)
+  
+## Installation
 * clone this repository into your system.
-  <h6><i>git clone https://...</i></h6>
+  ```bash
+  git clone https://github.com/vishal-benake/Elearning-Android-Application.git
+  ```
   
 ## Software
 <a href="https://developer.android.com/studio?gad_source=1&gclid=EAIaIQobChMIxezS47DqhgMVQ9MWBR1J5QE-EAAYASAAEgIgh_D_BwE&gclsrc=aw.ds">![AndroidStudio](https://img.shields.io/badge/-Android%20Studio-000000?style=for-the-badge&logo=AndroidStudio)</a>
@@ -35,3 +46,5 @@ The application fetches the information from the database using http url connect
 
 ## License
  ![License](https://img.shields.io/badge/License-MIT-blue.svg)
+ 
+This project is licensed under the MIT License.
