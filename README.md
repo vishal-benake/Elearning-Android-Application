@@ -1,7 +1,5 @@
 ## Elearning Android Application
 
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
-
 ## Table of Contents
 
 - [Installation](#installation)
@@ -43,8 +41,3 @@ The application fetches the information from the database using http url connect
 ## <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" width="20" height="20"> Instagram
 <h4>If you like, do follow me on Instagram</h4>
 <a href="https://www.instagram.com/vishaal_87">Connect with me on Instagram</a>
-
-## License
- ![License](https://img.shields.io/badge/License-MIT-blue.svg)
- 
-This project is licensed under the MIT License.
